@@ -1,2 +1,2 @@
 #!/bin/bash
-touch ls_cwd_content | content=$(date) | echo "$date"
+ls -la > ls_cwd_content

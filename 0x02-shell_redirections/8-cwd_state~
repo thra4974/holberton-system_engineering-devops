@@ -1,0 +1,2 @@
+#!/bin/bash
+touch ls_cwd_content | content=$(ls -la) | echo "$content"

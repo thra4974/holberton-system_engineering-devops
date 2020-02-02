@@ -1,2 +1,2 @@
 #!/bin/bash
-lastline=$(tail -1 iacta) | echo "lastline"
+echo | tail -1 iacta

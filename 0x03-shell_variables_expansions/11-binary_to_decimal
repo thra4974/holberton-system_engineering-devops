@@ -1,2 +1,2 @@
 #!/bin/bash
-export BINARY | echo "((
+printf "%b\x0" "$BINARY"

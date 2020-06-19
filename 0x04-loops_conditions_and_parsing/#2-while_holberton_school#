@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+	x=$(( $x + 1 ))
+done

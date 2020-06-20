@@ -5,15 +5,16 @@ while [ $x -le 20 ]
 do
         echo "$x"
         x=$((x + 1))
-	if [[ "$x" == '5' ]];
-	then
+	case $x in
+	    5)
 		echo "bad luck from China"
-	elif [[ "$x" == '10' ]];
-	then
+		;;
+	    10)
 		echo "bad luck from Japan"
-	elif [[ "$x" == '18' ]];
-	then
+		;;
+	    18)
 		echo "bad luck from Italy"
-	fi
-		continue
+		;;
+	esac
+	continue
 done

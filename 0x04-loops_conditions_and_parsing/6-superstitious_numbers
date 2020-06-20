@@ -5,13 +5,13 @@ while [ $x -le 20 ]
 do
         echo "$x"
         x=$((x + 1))
-	if [[ "$x" == '4' ]];
+	if [[ "$x" == '5' ]];
 	then
 		echo "bad luck from China"
-	elif [[ "$x" == '9' ]];
+	elif [[ "$x" == '10' ]];
 	then
 		echo "bad luck from Japan"
-	elif [[ "$x" == '17' ]];
+	elif [[ "$x" == '18' ]];
 	then
 		echo "bad luck from Italy"
 	fi

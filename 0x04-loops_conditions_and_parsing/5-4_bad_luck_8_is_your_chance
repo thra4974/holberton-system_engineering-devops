@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Displays badluck for 4th loop, goodluck for 8th loop, and Holberton School for others
+x=1
+while [ $x -le 10 ]
+do
+        if [[ "$x" == '4' ]];
+        then
+	    echo "bad luck"
+        elif [[ "$x" == '8' ]];
+        then
+            echo "good luck"
+        else
+	    echo "Holberton School"
+        fi
+        x=$((x+1))
+done

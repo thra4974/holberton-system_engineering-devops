@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# configures Ubuntu server
+tmp=~/hosts.new
+cp /etc/hosts "$tmp"
